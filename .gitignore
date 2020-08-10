@@ -1,0 +1,22 @@
+# ignore all logs and last files
+*.log
+*.last
+
+# ignore all pyc
+*.pyc
+
+# ignore all checkpoints (jupyter notebook)
+*.ipynb_checkpoints
+
+# ignore all nfs-files
+.nfs*
+
+# Byte-compiled
+__pycache__/
+
+# intellij configs
+.idea/
+
+# xml/iml files
+*.xml
+*.iml
