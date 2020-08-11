@@ -22,14 +22,14 @@ class Datamodel:
         :param index: The index of datamodel
         """
         print('creating datamodel ' + str(index))
-        self.skymodel = fits.open(path + folder + '.skymodel.fits')
+        #self.skymodel = fits.open(path + folder + '.skymodel.fits')
         self.psf = fits.open(path + folder + '.psf.fits')
         self.flat = casa_image(fits.open(path + folder + '.image.flat.fits'), 'Flat', directions)
         self.residual = casa_image(fits.open(path + folder + '.residual.fits'), 'Residual', directions)
         self.fidelity = casa_image(fits.open(path + folder + '.fidelity.fits'), 'Fidelity', directions)
 
         print('creating skymodel and psf plots')
-        save_png_plot(self.skymodel, 'Skymodel')
+        #save_png_plot(self.skymodel, 'Skymodel')
         save_png_plot(self.psf, 'Psf')
 
 

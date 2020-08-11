@@ -7,7 +7,6 @@ import pickle
 import util.helpers
 from util import datamodel
 from util import components
-import requests
 import time
 
 # Measurement time
@@ -196,8 +195,5 @@ def update_hist(relayoutData):
 
 
 if __name__ == '__main__':
-    #start_time = time.time()
     app.run_server(debug=False, host='127.0.0.1')
-    #print("--- %s seconds ---" % (time.time() - start_time))
-    #print("Time mesurement: " + str(requests.get("http://127.0.0.1:8050").elapsed.total_seconds()))
 
