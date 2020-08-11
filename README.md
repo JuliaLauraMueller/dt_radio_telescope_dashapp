@@ -1,7 +1,7 @@
-# Designing a «Digital Twin» of a Radio Telescope - Dash Application for Visualizing
+# Designing a «Digital Twin» of a Radio Telescope - Dash Application
 
 ## Application Instructions
-These instructions explain how to start the Dash-application to visualise the radio images created by SATRO.
+These instructions explain how to start the Dash-application to visualize the radio images created by SATRO.
 After cloning the repository to your local machine, follow these steps.
 
 ### 1. Make sure you have Python installed
@@ -22,6 +22,7 @@ https://docs.anaconda.com/anaconda/install/
 https://docs.anaconda.com/anaconda/navigator/getting-started/
 
 Easly add packages via the navigator:
+
 ![Anaconda Navigator](documentation/dash_app_readme.png)
 
 The following packages are required for this application:
@@ -36,7 +37,7 @@ The following packages are required for this application:
 - dash-bootstrap-components
 - dash-html-components
 
-### 3. Execute script and open dash application
+### 3. Execute script and open Dash-App
 Firstly start your terminal at this folder:
 
 dt_radio_telescope_dashapp/AppDash
